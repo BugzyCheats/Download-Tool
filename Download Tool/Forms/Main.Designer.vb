@@ -43,7 +43,7 @@ Partial Class Main
         Me.MainForm.Dock = System.Windows.Forms.DockStyle.Fill
         Me.MainForm.Location = New System.Drawing.Point(0, 0)
         Me.MainForm.Name = "MainForm"
-        Me.MainForm.Size = New System.Drawing.Size(394, 162)
+        Me.MainForm.Size = New System.Drawing.Size(394, 157)
         Me.MainForm.TabIndex = 0
         Me.MainForm.Text = "Download Tool"
         '
@@ -62,7 +62,7 @@ Partial Class Main
         '
         Me.DownloadFile.BackColor = System.Drawing.Color.Transparent
         Me.DownloadFile.ForeColor = System.Drawing.Color.FromArgb(CType(CType(86, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
-        Me.DownloadFile.Location = New System.Drawing.Point(12, 124)
+        Me.DownloadFile.Location = New System.Drawing.Point(12, 121)
         Me.DownloadFile.Name = "DownloadFile"
         Me.DownloadFile.Size = New System.Drawing.Size(370, 23)
         Me.DownloadFile.TabIndex = 3
@@ -72,7 +72,7 @@ Partial Class Main
         '
         Me.MyExtension.BackColor = System.Drawing.Color.White
         Me.MyExtension.ForeColor = System.Drawing.Color.FromArgb(CType(CType(102, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(102, Byte), Integer))
-        Me.MyExtension.Location = New System.Drawing.Point(12, 95)
+        Me.MyExtension.Location = New System.Drawing.Point(12, 93)
         Me.MyExtension.MaxLength = 32767
         Me.MyExtension.Name = "MyExtension"
         Me.MyExtension.Size = New System.Drawing.Size(370, 26)
@@ -85,7 +85,7 @@ Partial Class Main
         '
         Me.MyFileName.BackColor = System.Drawing.Color.White
         Me.MyFileName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(102, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(102, Byte), Integer))
-        Me.MyFileName.Location = New System.Drawing.Point(12, 66)
+        Me.MyFileName.Location = New System.Drawing.Point(12, 65)
         Me.MyFileName.MaxLength = 32767
         Me.MyFileName.Name = "MyFileName"
         Me.MyFileName.Size = New System.Drawing.Size(370, 26)
@@ -111,7 +111,7 @@ Partial Class Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(394, 162)
+        Me.ClientSize = New System.Drawing.Size(394, 157)
         Me.Controls.Add(Me.MainForm)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
