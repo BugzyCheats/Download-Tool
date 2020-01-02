@@ -22,6 +22,7 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
         Me.MainForm = New Download_Tool.UbuntuTheme()
         Me.UbuntuControlBox1 = New Download_Tool.UbuntuControlBox()
         Me.DownloadFile = New Download_Tool.UbuntuButtonOrange()
@@ -113,6 +114,7 @@ Partial Class Main
         Me.ClientSize = New System.Drawing.Size(394, 162)
         Me.Controls.Add(Me.MainForm)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Download Tool"
