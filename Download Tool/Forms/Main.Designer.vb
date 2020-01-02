@@ -22,10 +22,32 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.UbuntuTheme1 = New Download_Tool.UbuntuTheme()
+        Me.SuspendLayout()
+        '
+        'UbuntuTheme1
+        '
+        Me.UbuntuTheme1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.UbuntuTheme1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.UbuntuTheme1.Location = New System.Drawing.Point(0, 0)
+        Me.UbuntuTheme1.Name = "UbuntuTheme1"
+        Me.UbuntuTheme1.Size = New System.Drawing.Size(800, 450)
+        Me.UbuntuTheme1.TabIndex = 0
+        Me.UbuntuTheme1.Text = "UbuntuTheme1"
+        '
+        'Main
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.UbuntuTheme1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "Main"
         Me.Text = "Form1"
+        Me.TransparencyKey = System.Drawing.Color.Fuchsia
+        Me.ResumeLayout(False)
+
     End Sub
 
+    Friend WithEvents UbuntuTheme1 As UbuntuTheme
 End Class
