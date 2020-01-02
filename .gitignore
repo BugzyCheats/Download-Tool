@@ -1,0 +1,14 @@
+
+*.lock
+.vs/Download Tool/v16/.suo
+*.ide
+*.ide-shm
+*.ide-wal
+*.exe
+*.config
+*.pdb
+*.xml
+*.cache
+*.txt
+*.resources
+*.dll
