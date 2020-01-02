@@ -7,7 +7,7 @@ Public Class Main
         Dim link As String = MyLink.Text
         Dim filename As String = MyFileName.Text
         Dim extension As String = MyExtension.Text
-        Dim result As String = filename + extension
+        Dim result As String = (filename + extension)
 
         client.DownloadFile(link, filename + extension)
         client.Dispose()
