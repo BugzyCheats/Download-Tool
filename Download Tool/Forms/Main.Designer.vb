@@ -77,7 +77,7 @@ Partial Class Main
         Me.MyExtension.Name = "MyExtension"
         Me.MyExtension.Size = New System.Drawing.Size(370, 26)
         Me.MyExtension.TabIndex = 2
-        Me.MyExtension.Text = ".rar"
+        Me.MyExtension.Text = "rar"
         Me.MyExtension.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left
         Me.MyExtension.UseSystemPasswordChar = False
         '
